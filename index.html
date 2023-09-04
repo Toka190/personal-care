@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <title>Güzel.net</title>
+  </head>
+  <body>
+    <header>
+
+     <h1 class="address"> Güzelsın </h1><a class="icons" href="index.html"> <i class="fa-solid fa-house"></i></a>
+
+    </header>
+<div id="mysidenav" class="sidenav">
+  <a href="index.html"class="closebtn" onclick="closeNave()"> &times;</a>
+  <a href="index.html">Home</a>
+  <a href="bodycare.html">Body Care</a>
+  <a href="hair.html">Hair Care</a>
+  <a href="Hand.html">Hand Care</a>
+  <a href="candles.html">candles</a>
+  <a href="dry.html">Dry Skin</a>
+  <a href="oily.html">Oily Skin</a>
+
+</div>
+<div id="main">
+  <span onclick="openNav()"class="icons" ><i class="fa-solid fa-bars"></i>
+   </span>
+</div>
+<script src="main.js">
+
+</script>
+    <section class="p">
+      <div>
+        <video src="video.mp4"  autoplay poster="media/2.jpg" width="300px" height="350px" controls autoplay muted>
+
+        </video>
+    <p>Welcome Madam ,<br>
+here we care about every  woman to get a decent appearance and healthy beauty skin to shine always .
+<br>
+<br>
+Our team is happy to offer you your own range for complete care according to the nature of your skin and your hair type.
+ </p>
+<img class="intro" src="media/24.png" alt="" width="1000px" height="150px">
+ <br> <br><br> <hr>
+ <p><h2> February Offers .... </h2> </p>
+ <img class="poster"src="media/2.jpg" alt="" width="700px" height="400px">
+
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+
+<p> <h2>Today's Top Offers</h2></p>
+<div class="offer">
+<p><h3><b>Body Care</b>
+</h3> <br> Buy 2, Get 1 Free </p>
+</div>
+
+<div class="offer">
+<p><h3><b>Candles</b>
+</h3> <br> 2 for EGP 1345 </p>
+</div>
+
+<div class="offer">
+<p><h3><b>Body Care</b>
+</h3> <br> 2 for EGP 599.99 </p>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><hr>
+<p ><h2>Most Wanted ...</h2>
+  <div class="swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img class="slider" src="body/b2.jpg" alt="" width="360px" height="380px"> </div>
+  <div class="swiper-slide"><img class="slider"src="media/16.jpg" alt="" width="360px" height="380px">  </div>
+<div class="swiper-slide"> <img class="slider" src="media/21.jpg" alt="" width="360px" height="380px"></div>
+<div class="swiper-slide"> <img  class="slider" src="media/17.png" alt="" width="360px" height="380px"></div>
+<div class="swiper-slide"> <img class="slider"  src="hands/h2.jpg" alt="" width="360px" height="380px"></div>
+<div class="swiper-slide"> <img  class="slider" src="hair/r11.jpg" alt="" width="360px" height="380px"> </div>
+<div class="swiper-slide"> <img  class="slider" src="hair/r11.webp" alt="" width="360px" height="380px"> </div>
+</div>
+
+  <div class="swiper-pagination"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+loop: true,
+pagination: {
+  el: '.swiper-pagination',
+},
+navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+},
+
+});
+</script>
+<br><br><br><br><br><br><hr>
+<p ><h2>Shop By Category</h2>
+<div class="Category">
+  <img class="Cimg" src="body/b3.jpg " alt="" width="200px" height="200px"> <br> <a class="cat" href="bodycare.html"><h4>Body Care</h4> </a>
+</div>
+
+<div class="Category">
+  <img class="Cimg" src="media/6.jpg" alt="" width="200px" height="200px"> <br> <a class="cat"  href="hand.html"><h4>Hand Care </h4> </a>
+</div>
+<div class="Category">
+  <img class="Cimg" src="hair/r8.jpg" alt=""  width="200px" height="200px"><br> <a class="cat" href="hair.html"><h4>Hair care</h4></a>
+</div>
+<div class="Category">
+  <img  class="Cimg"src="media/16.jpg" alt=""  width="200px" height="200px"><br> <a class="cat"href="candles.html"><h4>Candles</h4> </a>
+</div>
+<div class="Category">
+  <img class="Cimg" src="oily/R.png" alt=""  width="200px" height="200px"><br> <a class="cat" href="oily.html"><h4>Oily skin</h4>  </a>
+</div>
+<div class="Category">
+  <img class="Cimg" src="dry/R.jpg" alt=""  width="200px" height="200px"><br> <a class="cat" href="dry.html"><h4>Dry skin</h4></a>
+</div>
+<br><br><br><br><br><br><br><br><br><br>
+
+  </body>
+
+  <footer class="fot" >
+
+    <div >
+    <br>
+        <p>
+            rights are kept to Guzel ©2023</p>
+            <div class="icons">
+               <a href="#" class="icons" ><i id="icon" class="fa-brands fa-facebook-f"></i> </a>
+               <a href="#" class="icons" > <i id="icon" class="fa-brands fa-instagram"></i></a>
+               <a href="#"  class="icons"><i id="icon" class="fa-brands fa-youtube"></i> </a>
+               <a href="#"  class="icons"><i id="icon" class="fa-brands fa-twitter"></i> </a>
+           </div>
+</footer>
+
+</html>
